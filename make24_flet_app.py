@@ -37,7 +37,7 @@ class Make24App(ft.UserControl):
         self.input_nums = [
             ft.Dropdown(
                 value=str(self.init_values[i]),
-                width=100,
+                width=60,
                 options=[ft.dropdown.Option(f"{i}") for i in self.full_num_list],
             )
             for i in range(4)
@@ -52,7 +52,7 @@ class Make24App(ft.UserControl):
             ft.ElevatedButton("Solve", on_click=self.btn_solve_handler)
         )
         self.result_column = ft.Column(
-            width=400,
+            width=300,
             height=300,
             scroll=ft.ScrollMode.ADAPTIVE,
         )
