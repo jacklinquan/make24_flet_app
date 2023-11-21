@@ -19,3 +19,7 @@ Replace `favicon.png` in `docs` folder and all `*.png` icons in `docs/icons` fol
 python -m http.server --directory ./docs
 ```
 And open `http://localhost:8000` in a brower.
+
+## Deploy to Cloudflare
+In Cloudflare Pages, create a new project and upload the `docs` folder.
+[Make 24 Flet App](https://make24-flet-app.pages.dev/)
