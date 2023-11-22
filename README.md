@@ -22,4 +22,5 @@ And open `http://localhost:8000` in a brower.
 
 ## Deploy to Cloudflare
 In Cloudflare Pages, create a new project and upload the `dist` folder.
-[Make 24 Flet App](https://make24-flet-app.pages.dev/)
+
+[Make 24](https://make24.pages.dev/)
